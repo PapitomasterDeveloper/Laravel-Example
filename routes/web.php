@@ -12,7 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    return view('welcome')->withTasks([
+        "Study more Laravel",
+        "Study more Backend",
+        "Don't forget about Frontend"
+	]);
+
 });
 
 Route::get('/contact', function () {
