@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layout')
 
-        <title></title>
+@section('title','Contact Us')
 
-    </head>
-    <body>
-        <h1>Contact Page</h1>
-    </body>
-</html>
-
+@section('content')
+	<h1>Contact page</h1>
+@endsection
