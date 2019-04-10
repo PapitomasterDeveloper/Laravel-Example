@@ -11,15 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-
-    return view('welcome')->withTasks([
-        "Study more Laravel",
-        "Study more Backend",
-        "Don't forget about Frontend"
-	]);
-
-});
+Route::get('/', 'PagesController@home');
 
 Route::get('/contact', function () {
     return view('contact');
